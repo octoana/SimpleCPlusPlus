@@ -1,4 +1,4 @@
-name 'CodeQL config'
+name "CodeQL config"
 
 - qlpack: codeql/misra-cpp-coding-standards
 - exclude:
