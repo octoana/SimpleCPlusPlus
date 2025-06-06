@@ -1,4 +1,3 @@
 query-filters:
 - exclude:
-  id:
-    - cpp/misra/identifiers-used-in-the-controlling-expression-of
+  id: cpp/misra/identifiers-used-in-the-controlling-expression-of
