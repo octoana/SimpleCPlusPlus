@@ -5,5 +5,7 @@ packs:
 
 queries:
   - uses: security-extended
-  exclude:
-  - id: cpp/misra/identifiers-used-in-the-controlling-expression-of
+
+query-filters:
+  - exclude:
+    id: cpp/misra/identifiers-used-in-the-controlling-expression-of
