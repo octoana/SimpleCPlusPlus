@@ -6,4 +6,5 @@ packs:
 queries:
   - uses: security-extended
   - exclude:
-    id: cpp/misra/identifiers-used-in-the-controlling-expression-of
+    from: codeql/misra-cpp-coding-standards 
+    query: cpp/misra/identifiers-used-in-the-controlling-expression-of
