@@ -1,9 +1,9 @@
 name: "My CodeQL config"
 
-queries:
-  - uses: security-extended
-  
 packs:
   - codeql/misra-cpp-coding-standards
-exclude:
+
+queries:
+  - uses: security-extended
+  exclude:
   - id: cpp/misra/identifiers-used-in-the-controlling-expression-of
