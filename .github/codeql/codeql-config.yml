@@ -1,4 +1,6 @@
 name "CodeQL config"
+queries:
+  - name: exclude misra queries
 packs: 
   - codeql/misra-cpp-coding-standards
 query-filters:
