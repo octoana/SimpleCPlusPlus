@@ -2,8 +2,8 @@ name: "My CodeQL config"
 
 packs:
   - codeql/misra-cpp-coding-standards:
-  exclude:
-    - cpp/misra/identifiers-used-in-the-controlling-expression-of
+    exclude:
+      - cpp/misra/identifiers-used-in-the-controlling-expression-of
 
 queries:
   - uses: security-extended
