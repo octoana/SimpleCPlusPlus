@@ -1,4 +1,5 @@
-queries: security-extended,security-and-quality
+queries:
+  - uses: security-extended,security-and-quality
 packs: codeql/misra-cpp-coding-standards
 query-filters:
 - exclude:
