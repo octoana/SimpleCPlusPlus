@@ -1,4 +1,7 @@
-- qlpack: codeql/misra-cpp-coding-standards
+packs:
+  c-cpp:
+    - codeql/misra-cpp-coding-standards
+query-filters:
 - exclude:
   id:
     - cpp/misra/identifiers-used-in-the-controlling-expression-of
