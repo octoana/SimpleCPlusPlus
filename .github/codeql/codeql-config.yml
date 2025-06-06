@@ -1,4 +1,4 @@
-query-filters:
-  - exclude:
+qlpack: codeql/misra-cpp-coding-standards
+- exclude:
     id:
       - cpp/misra/identifiers-used-in-the-controlling-expression-of
