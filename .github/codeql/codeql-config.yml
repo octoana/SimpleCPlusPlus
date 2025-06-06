@@ -1,5 +1,8 @@
+name: "My CodeQL config"
+
 queries:
-  - uses: security-extended,security-and-quality
+  - uses: security-extended
+  
 packs: codeql/misra-cpp-coding-standards
 query-filters:
 - exclude:
